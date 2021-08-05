@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp"
+    tools:context=".InfoActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="253dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logokoba" />
+
+    <ImageView
+        android:id="@+id/lokasi"
+        android:layout_width="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="40dp"
+        android:src="@drawable/lokasi"
+        android:layout_below="@id/logo"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="50dp"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@id/lokasi"
+        android:text="Kopi kobatins, Jalan Jenderal Sudirman, Padang Mulia, Kabupaten Bangka Tengah, Kepulauan Bangka Belitung" />
+
+    <ImageView
+        android:id="@+id/wa"
+        android:layout_width="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="40dp"
+        android:src="@drawable/wa"
+        android:layout_below="@id/logo"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@id/wa"
+        android:text=" 0838 - 0291 - 3648" />
+
+    <ImageView
+        android:id="@+id/ig"
+        android:layout_width="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ig"
+        android:layout_below="@id/wa"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@id/wa"
+        android:text=" @kopi_kobatins" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="35dp"
+        android:src="@drawable/fb"
+        android:layout_below="@id/ig"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_alignLeft="@id/wa"
+        android:textColor="@android:color/black"
+        android:text=" kopi_kobatins" />
+
+</RelativeLayout>
